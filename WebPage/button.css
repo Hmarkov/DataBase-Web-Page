@@ -1,0 +1,42 @@
+.btn{
+  border-radius: 17px;
+  background-color: #D3F8FA;
+  border: none;
+  color: #2A4383;
+  text-align: center;
+  font-size: 24px;
+  padding: 15px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+ 
+  position: relative;
+  transition: 0.4s;
+}
+
+.btn span:after {
+  content: '\02C2';
+  position: absolute;
+  opacity: 0;
+
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 28px;
+  color:transparent;
+}
+
+.btn:hover span:after {
+	 color: #2A4383;
+  opacity: 2;
+  right: 100px;
+}

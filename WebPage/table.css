@@ -1,0 +1,27 @@
+
+body {background-color:#FAE5D3;
+
+	
+
+}
+.s1 {
+    border: solid 2px #0F6B83;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    font: normal 20px Arial, sans-serif;
+}
+.s1 thead th {
+    background-color: #0F6B83;
+    border: solid 1px #0F6B83;
+    color: #08627A;
+    padding: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+.s1 tbody td {
+    border: solid 1px #0F6B83;
+    color: #333;
+    padding: 30px;
+    text-shadow: 1px 1px 1px #fff;
+}
+

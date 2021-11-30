@@ -1,0 +1,95 @@
+.btn1 {
+position : fixed;
+top : 100px;
+left : 100px;
+color : #005ce6;
+padding : 14px;
+font-size : 18px;
+border : none;
+margin-right : 4px;
+width : 7%;
+background : #f44336;
+}
+.btn2 {
+position : fixed;
+top : 140px;
+left : 100px;
+padding : 14px;
+color : black;
+font-size : 18px;
+border : none;
+margin-right : 4px;
+width : 7%;
+background : #f44336;
+}
+.btn3 {
+position : fixed;
+top : 180px;
+left : 100px;
+color : black;
+padding : 14px;
+font-size : 18px;
+border : none;
+margin-right : 4px;
+width : 7%;
+background : #f44336;
+}
+.btn4 {
+position : fixed;
+top : 220px;
+left : 100px;
+color : black;
+padding : 14px;
+font-size : 18px;
+border : none;
+margin-right : 4px;
+width : 7%;
+background : #f44336;
+}
+.btn5 {
+position : fixed;
+top : 260px;
+left : 100px;
+color : black;
+padding : 14px;
+font-size : 18px;
+border : none;
+margin-right : 4px;
+width : 7%;
+background : #f44336;
+}
+.drop {
+position : relative;
+display : block;
+}
+.drop:hover {
+display : inline-block;
+}
+.drop:hover .btn1 {
+background-color : #26779C;
+}
+.drop:hover .btn2 {
+background-color : #26779C;
+}
+.drop:hover .btn3 {
+background-color : #26779C;
+}
+.drop:hover .btn4 {
+background-color : #26779C;
+}
+.drop:hover .btn5 {
+background-color : #26779C;
+}
+a:hover {
+color : blue;
+}
+a:visited {
+color : white;
+}
+ul {
+list-style-type : none;
+position : fixed;
+}
+a:hover, a:visited, a:link, a:active {
+text-decoration : none;
+}
